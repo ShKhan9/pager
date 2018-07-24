@@ -58,7 +58,7 @@ class ViewController: UIViewController , UIPageViewControllerDelegate , UIPageVi
         
         currentIndex = 1
         
-        pag.setViewControllers([self.getVC(index:1)], direction:.forward, animated: true, completion: nil)
+        pag.setViewControllers([self.getVC(index:currentIndex)], direction:.forward, animated: true, completion: nil)
         
     }
     
